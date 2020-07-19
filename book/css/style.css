@@ -1,0 +1,75 @@
+html {
+	height:100;
+	margin:0px;
+	padding:0px;
+}
+.no-margin-padding{
+	
+	padding:0px;
+	margin:0px;
+}
+.no-margin{ margin:0px;}
+.no-padding{padding:0px;}
+.l-padding{padding:0px 0px 0px 10px;}
+
+.red{ color:white; background:red;}
+.green{ color:green; } .bgreen {background:green;}
+.blue{ color:white; background:blue;}
+.black{ color:white; background:black;}
+.white{ color:black; background:white;}
+.gray{ color:white; background:gray;}
+.yellow{ color:white; background:yellow;}
+.pink{ color:white; background:pink;}
+
+.purple{color:white; background:purple;}
+.tree{ background:#D6BF3E; color:green;}
+.y{background:#5e5e5e;}
+
+
+body{
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.site-footer{
+	background:#D6BF3E;
+	color:green;
+	margin-top:30px;
+	padding-top:30px;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	
+	
+}
+.bottom-footer{
+	color:green;
+	background:#D6BF3E;
+	border-top:2px solid green ;
+	margin-top:10px;
+	padding-top:10px;
+}
+	.footer-nav{
+		text-align:right;
+		list-style:none;
+	}
+	
+.footer-nav li{
+	
+	display:inline;
+}
+.footer-nav li:not(:first-child):before{
+	content:'/';
+	padding:0px 10px;
+}
+.footer-nav a {
+	color:green;
+}
+.tree1{
+	background:#D6BF3E; color:green;
+	border-color: #ccc;
+}
+.decoration{
+	margin:30px;
+	padding:20px;
+}
